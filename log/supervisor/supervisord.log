@@ -1,0 +1,595 @@
+2022-05-07 16:21:18,072 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-07 16:21:18,072 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-07 16:21:18,072 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-07 16:21:18,089 INFO RPC interface 'supervisor' initialized
+2022-05-07 16:21:18,090 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-07 16:21:18,090 INFO supervisord started with pid 1
+2022-05-07 16:21:19,092 INFO spawned: 'php-fpm' with pid 7
+2022-05-07 16:21:19,095 INFO spawned: 'test_00' with pid 8
+2022-05-07 16:21:19,238 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:21:20,240 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-07 16:21:20,241 INFO spawned: 'test_00' with pid 14
+2022-05-07 16:21:21,271 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:21:23,274 INFO spawned: 'test_00' with pid 18
+2022-05-07 16:21:24,303 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:21:27,307 INFO spawned: 'test_00' with pid 22
+2022-05-07 16:21:28,337 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:21:29,338 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-05-07 16:26:32,851 WARN received SIGQUIT indicating exit request
+2022-05-07 16:26:32,851 INFO waiting for php-fpm to die
+2022-05-07 16:26:33,856 INFO stopped: php-fpm (exit status 0)
+2022-05-07 16:26:34,536 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-07 16:26:34,536 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-07 16:26:34,536 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-07 16:26:34,539 INFO RPC interface 'supervisor' initialized
+2022-05-07 16:26:34,539 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-07 16:26:34,539 INFO supervisord started with pid 1
+2022-05-07 16:26:35,541 INFO spawned: 'php-fpm' with pid 7
+2022-05-07 16:26:35,543 INFO spawned: 'test_00' with pid 8
+2022-05-07 16:26:35,601 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:26:36,603 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-07 16:26:36,604 INFO spawned: 'test_00' with pid 14
+2022-05-07 16:26:37,634 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:26:39,636 INFO spawned: 'test_00' with pid 18
+2022-05-07 16:26:40,666 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:26:43,671 INFO spawned: 'test_00' with pid 29
+2022-05-07 16:26:44,701 INFO exited: test_00 (exit status 255; not expected)
+2022-05-07 16:26:45,702 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-05-07 16:56:03,384 WARN received SIGQUIT indicating exit request
+2022-05-07 16:56:03,384 INFO waiting for php-fpm to die
+2022-05-07 16:56:04,390 INFO stopped: php-fpm (exit status 0)
+2022-05-08 00:56:05,306 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-08 00:56:05,306 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-08 00:56:05,306 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-08 00:56:05,309 INFO RPC interface 'supervisor' initialized
+2022-05-08 00:56:05,309 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-08 00:56:05,309 INFO supervisord started with pid 1
+2022-05-08 00:56:06,311 INFO spawned: 'php-fpm' with pid 7
+2022-05-08 00:56:06,313 INFO spawned: 'test_00' with pid 8
+2022-05-08 00:56:06,370 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 00:56:07,372 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-08 00:56:07,373 INFO spawned: 'test_00' with pid 14
+2022-05-08 00:56:08,403 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 00:56:10,561 INFO spawned: 'test_00' with pid 18
+2022-05-08 00:56:11,591 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 00:56:14,595 INFO spawned: 'test_00' with pid 22
+2022-05-08 00:56:15,625 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 00:56:16,626 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-05-08 23:28:08,366 WARN received SIGQUIT indicating exit request
+2022-05-08 23:28:08,367 INFO waiting for php-fpm to die
+2022-05-08 23:28:09,371 INFO stopped: php-fpm (exit status 0)
+2022-05-08 23:28:10,049 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-08 23:28:10,049 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-08 23:28:10,049 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-08 23:28:10,052 INFO RPC interface 'supervisor' initialized
+2022-05-08 23:28:10,052 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-08 23:28:10,052 INFO supervisord started with pid 1
+2022-05-08 23:28:11,054 INFO spawned: 'php-fpm' with pid 7
+2022-05-08 23:28:11,057 INFO spawned: 'test_00' with pid 8
+2022-05-08 23:28:11,113 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 23:28:12,114 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-08 23:28:12,115 INFO spawned: 'test_00' with pid 14
+2022-05-08 23:28:12,147 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 23:28:14,150 INFO spawned: 'test_00' with pid 18
+2022-05-08 23:28:14,205 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 23:28:18,128 INFO spawned: 'test_00' with pid 22
+2022-05-08 23:28:19,157 INFO exited: test_00 (exit status 255; not expected)
+2022-05-08 23:28:20,158 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-05-19 20:32:54,555 WARN received SIGQUIT indicating exit request
+2022-05-19 20:32:54,558 INFO waiting for php-fpm to die
+2022-05-19 20:32:56,165 INFO stopped: php-fpm (exit status 0)
+2022-05-19 23:01:40,899 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-19 23:01:40,899 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-19 23:01:40,899 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-19 23:01:40,906 INFO RPC interface 'supervisor' initialized
+2022-05-19 23:01:40,906 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-19 23:01:40,906 INFO supervisord started with pid 1
+2022-05-19 23:01:41,908 INFO spawned: 'php-fpm' with pid 8
+2022-05-19 23:01:41,911 INFO spawned: 'test_00' with pid 9
+2022-05-19 23:01:43,094 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-19 23:01:43,095 INFO exited: test_00 (exit status 255; not expected)
+2022-05-19 23:01:44,097 INFO spawned: 'test_00' with pid 15
+2022-05-19 23:01:45,125 INFO exited: test_00 (exit status 255; not expected)
+2022-05-19 23:01:47,128 INFO spawned: 'test_00' with pid 19
+2022-05-19 23:01:48,159 INFO exited: test_00 (exit status 255; not expected)
+2022-05-19 23:01:51,163 INFO spawned: 'test_00' with pid 23
+2022-05-19 23:01:52,191 INFO exited: test_00 (exit status 255; not expected)
+2022-05-19 23:01:53,192 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-05-22 17:08:07,435 WARN received SIGQUIT indicating exit request
+2022-05-22 17:08:07,441 INFO waiting for php-fpm to die
+2022-05-22 17:08:09,049 INFO stopped: php-fpm (exit status 0)
+2022-05-22 20:06:54,175 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-22 20:06:54,175 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-22 20:06:54,175 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-22 20:06:54,185 INFO RPC interface 'supervisor' initialized
+2022-05-22 20:06:54,185 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-22 20:06:54,185 INFO supervisord started with pid 1
+2022-05-22 20:06:55,187 INFO spawned: 'php-fpm' with pid 7
+2022-05-22 20:06:55,190 INFO spawned: 'test_00' with pid 8
+2022-05-22 20:06:55,371 INFO exited: test_00 (exit status 255; not expected)
+2022-05-22 20:06:56,372 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-22 20:06:56,373 INFO spawned: 'test_00' with pid 14
+2022-05-22 20:06:56,403 INFO exited: test_00 (exit status 255; not expected)
+2022-05-22 20:06:58,406 INFO spawned: 'test_00' with pid 18
+2022-05-22 20:06:59,436 INFO exited: test_00 (exit status 255; not expected)
+2022-05-22 20:07:02,440 INFO spawned: 'test_00' with pid 22
+2022-05-22 20:07:02,473 INFO exited: test_00 (exit status 255; not expected)
+2022-05-22 20:07:03,473 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-05-22 22:02:05,166 WARN received SIGQUIT indicating exit request
+2022-05-22 22:02:05,166 INFO waiting for php-fpm to die
+2022-05-22 22:02:06,171 INFO stopped: php-fpm (exit status 0)
+2022-05-23 01:37:11,457 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-05-23 01:37:11,457 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-05-23 01:37:11,457 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-05-23 01:37:11,460 INFO RPC interface 'supervisor' initialized
+2022-05-23 01:37:11,460 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-05-23 01:37:11,461 INFO supervisord started with pid 1
+2022-05-23 01:37:12,463 INFO spawned: 'php-fpm' with pid 7
+2022-05-23 01:37:12,466 INFO spawned: 'test_00' with pid 8
+2022-05-23 01:37:12,521 INFO exited: test_00 (exit status 255; not expected)
+2022-05-23 01:37:13,523 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-05-23 01:37:13,525 INFO spawned: 'test_00' with pid 14
+2022-05-23 01:37:13,554 INFO exited: test_00 (exit status 255; not expected)
+2022-05-23 01:37:15,557 INFO spawned: 'test_00' with pid 18
+2022-05-23 01:37:16,472 INFO exited: test_00 (exit status 255; not expected)
+2022-05-23 01:37:19,476 INFO spawned: 'test_00' with pid 22
+2022-05-23 01:37:20,505 INFO exited: test_00 (exit status 255; not expected)
+2022-05-23 01:37:21,507 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 20:05:49,958 WARN received SIGQUIT indicating exit request
+2022-06-14 20:05:49,962 INFO waiting for php-fpm to die
+2022-06-14 20:05:51,456 INFO stopped: php-fpm (exit status 0)
+2022-06-14 20:05:57,831 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 20:05:57,831 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 20:05:57,831 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 20:05:57,840 INFO RPC interface 'supervisor' initialized
+2022-06-14 20:05:57,840 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 20:05:57,840 INFO supervisord started with pid 1
+2022-06-14 20:05:58,842 INFO spawned: 'php-fpm' with pid 7
+2022-06-14 20:05:58,845 INFO spawned: 'test_00' with pid 8
+2022-06-14 20:06:00,024 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 20:06:00,024 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 20:06:01,026 INFO spawned: 'test_00' with pid 14
+2022-06-14 20:06:01,027 WARN received SIGQUIT indicating exit request
+2022-06-14 20:06:01,027 INFO waiting for php-fpm, test_00 to die
+2022-06-14 20:06:02,056 INFO stopped: test_00 (exit status 255)
+2022-06-14 20:06:02,060 INFO stopped: php-fpm (exit status 0)
+2022-06-14 21:44:11,996 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 21:44:11,996 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 21:44:11,996 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 21:44:11,999 INFO RPC interface 'supervisor' initialized
+2022-06-14 21:44:11,999 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 21:44:12,000 INFO supervisord started with pid 1
+2022-06-14 21:44:13,001 INFO spawned: 'php-fpm' with pid 7
+2022-06-14 21:44:13,004 INFO spawned: 'test_00' with pid 8
+2022-06-14 21:44:13,063 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:44:14,064 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 21:44:14,066 INFO spawned: 'test_00' with pid 14
+2022-06-14 21:44:15,093 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:44:17,096 INFO spawned: 'test_00' with pid 18
+2022-06-14 21:44:18,126 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:44:21,130 INFO spawned: 'test_00' with pid 22
+2022-06-14 21:44:22,159 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:44:23,160 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 21:50:13,502 WARN received SIGQUIT indicating exit request
+2022-06-14 21:50:13,503 INFO waiting for php-fpm to die
+2022-06-14 21:50:14,507 INFO stopped: php-fpm (exit status 0)
+2022-06-14 21:50:15,184 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 21:50:15,184 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 21:50:15,184 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 21:50:15,187 INFO RPC interface 'supervisor' initialized
+2022-06-14 21:50:15,187 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 21:50:15,187 INFO supervisord started with pid 1
+2022-06-14 21:50:16,189 INFO spawned: 'php-fpm' with pid 8
+2022-06-14 21:50:16,191 INFO spawned: 'test_00' with pid 9
+2022-06-14 21:50:16,248 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:50:17,250 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 21:50:17,252 INFO spawned: 'test_00' with pid 15
+2022-06-14 21:50:18,281 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:50:20,285 INFO spawned: 'test_00' with pid 19
+2022-06-14 21:50:21,324 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:50:24,328 INFO spawned: 'test_00' with pid 23
+2022-06-14 21:50:25,357 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:50:26,358 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 21:51:00,391 WARN received SIGQUIT indicating exit request
+2022-06-14 21:51:00,391 INFO waiting for php-fpm to die
+2022-06-14 21:51:01,396 INFO stopped: php-fpm (exit status 0)
+2022-06-14 21:51:02,205 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 21:51:02,205 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 21:51:02,205 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 21:51:02,208 INFO RPC interface 'supervisor' initialized
+2022-06-14 21:51:02,208 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 21:51:02,208 INFO supervisord started with pid 1
+2022-06-14 21:51:03,211 INFO spawned: 'php-fpm' with pid 8
+2022-06-14 21:51:03,213 INFO spawned: 'test_00' with pid 9
+2022-06-14 21:51:03,270 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:51:04,272 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 21:51:04,274 INFO spawned: 'test_00' with pid 15
+2022-06-14 21:51:05,304 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:51:07,307 INFO spawned: 'test_00' with pid 19
+2022-06-14 21:51:07,338 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:51:10,343 INFO spawned: 'test_00' with pid 23
+2022-06-14 21:51:11,385 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:51:12,386 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 21:53:00,422 WARN received SIGQUIT indicating exit request
+2022-06-14 21:53:00,422 INFO waiting for php-fpm to die
+2022-06-14 21:53:01,427 INFO stopped: php-fpm (exit status 0)
+2022-06-14 21:53:02,136 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 21:53:02,136 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 21:53:02,136 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 21:53:02,139 INFO RPC interface 'supervisor' initialized
+2022-06-14 21:53:02,139 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 21:53:02,139 INFO supervisord started with pid 1
+2022-06-14 21:53:03,141 INFO spawned: 'php-fpm' with pid 7
+2022-06-14 21:53:03,144 INFO spawned: 'test_00' with pid 8
+2022-06-14 21:53:03,211 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:53:04,213 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 21:53:04,214 INFO spawned: 'test_00' with pid 14
+2022-06-14 21:53:04,245 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:53:06,248 INFO spawned: 'test_00' with pid 18
+2022-06-14 21:53:07,277 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:53:10,281 INFO spawned: 'test_00' with pid 22
+2022-06-14 21:53:11,315 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:53:12,316 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 21:56:31,433 WARN received SIGQUIT indicating exit request
+2022-06-14 21:56:31,434 INFO waiting for php-fpm to die
+2022-06-14 21:56:32,439 INFO stopped: php-fpm (exit status 0)
+2022-06-14 21:56:33,128 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 21:56:33,128 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 21:56:33,128 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 21:56:33,131 INFO RPC interface 'supervisor' initialized
+2022-06-14 21:56:33,131 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 21:56:33,131 INFO supervisord started with pid 1
+2022-06-14 21:56:34,133 INFO spawned: 'php-fpm' with pid 8
+2022-06-14 21:56:34,136 INFO spawned: 'test_00' with pid 9
+2022-06-14 21:56:34,192 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:56:35,193 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 21:56:35,194 INFO spawned: 'test_00' with pid 15
+2022-06-14 21:56:35,225 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:56:37,695 INFO spawned: 'test_00' with pid 19
+2022-06-14 21:56:37,724 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:56:40,773 INFO spawned: 'test_00' with pid 23
+2022-06-14 21:56:40,945 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 21:56:41,110 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 21:57:34,543 WARN received SIGQUIT indicating exit request
+2022-06-14 21:57:34,543 INFO waiting for php-fpm to die
+2022-06-14 21:57:35,549 INFO stopped: php-fpm (exit status 0)
+2022-06-14 21:57:56,630 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 21:57:56,630 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 21:57:56,631 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 21:57:56,633 INFO RPC interface 'supervisor' initialized
+2022-06-14 21:57:56,634 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 21:57:56,634 INFO supervisord started with pid 1
+2022-06-14 21:57:57,636 INFO spawned: 'php-fpm' with pid 8
+2022-06-14 21:57:57,638 INFO spawned: 'test_00' with pid 9
+2022-06-14 21:57:57,644 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 21:57:58,688 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 21:57:58,689 INFO spawned: 'test_00' with pid 12
+2022-06-14 21:57:58,693 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 21:58:00,697 INFO spawned: 'test_00' with pid 13
+2022-06-14 21:58:00,701 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 21:58:03,705 INFO spawned: 'test_00' with pid 14
+2022-06-14 21:58:03,709 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 21:58:04,710 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 22:34:57,729 WARN received SIGQUIT indicating exit request
+2022-06-14 22:34:57,729 INFO waiting for php-fpm to die
+2022-06-14 22:34:58,734 INFO stopped: php-fpm (exit status 0)
+2022-06-14 23:02:06,982 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 23:02:06,982 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 23:02:06,982 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 23:02:06,985 INFO RPC interface 'supervisor' initialized
+2022-06-14 23:02:06,985 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 23:02:06,985 INFO supervisord started with pid 1
+2022-06-14 23:02:07,987 INFO spawned: 'php-fpm' with pid 7
+2022-06-14 23:02:07,989 INFO spawned: 'test_00' with pid 8
+2022-06-14 23:02:08,139 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:02:09,141 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 23:02:09,142 INFO spawned: 'test_00' with pid 14
+2022-06-14 23:02:09,172 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:02:11,174 INFO spawned: 'test_00' with pid 18
+2022-06-14 23:02:11,627 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:02:14,663 INFO spawned: 'test_00' with pid 22
+2022-06-14 23:02:14,699 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:02:14,978 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 23:16:04,128 WARN received SIGQUIT indicating exit request
+2022-06-14 23:16:04,128 INFO waiting for php-fpm to die
+2022-06-14 23:16:05,132 INFO stopped: php-fpm (exit status 0)
+2022-06-14 23:16:18,315 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 23:16:18,315 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 23:16:18,315 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 23:16:18,320 INFO RPC interface 'supervisor' initialized
+2022-06-14 23:16:18,320 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 23:16:18,320 INFO supervisord started with pid 1
+2022-06-14 23:16:19,322 INFO spawned: 'php-fpm' with pid 8
+2022-06-14 23:16:19,325 INFO spawned: 'test_00' with pid 9
+2022-06-14 23:16:19,381 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:16:20,384 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 23:16:20,385 INFO spawned: 'test_00' with pid 15
+2022-06-14 23:16:21,416 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:16:23,420 INFO spawned: 'test_00' with pid 19
+2022-06-14 23:16:24,449 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:16:27,453 INFO spawned: 'test_00' with pid 23
+2022-06-14 23:16:28,484 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:16:29,485 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 23:42:17,450 WARN received SIGQUIT indicating exit request
+2022-06-14 23:42:17,450 INFO waiting for php-fpm to die
+2022-06-14 23:42:18,455 INFO stopped: php-fpm (exit status 0)
+2022-06-14 23:42:30,045 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 23:42:30,045 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 23:42:30,045 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 23:42:30,048 INFO RPC interface 'supervisor' initialized
+2022-06-14 23:42:30,048 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 23:42:30,049 INFO supervisord started with pid 1
+2022-06-14 23:42:31,050 INFO spawned: 'php-fpm' with pid 7
+2022-06-14 23:42:31,053 INFO spawned: 'test_00' with pid 8
+2022-06-14 23:42:31,109 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:42:32,110 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 23:42:32,111 INFO spawned: 'test_00' with pid 14
+2022-06-14 23:42:33,141 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:42:35,145 INFO spawned: 'test_00' with pid 18
+2022-06-14 23:42:36,174 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:42:39,178 INFO spawned: 'test_00' with pid 22
+2022-06-14 23:42:40,208 INFO exited: test_00 (exit status 255; not expected)
+2022-06-14 23:42:41,208 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-14 23:47:54,049 WARN received SIGQUIT indicating exit request
+2022-06-14 23:47:54,049 INFO waiting for php-fpm to die
+2022-06-14 23:47:55,054 INFO stopped: php-fpm (exit status 0)
+2022-06-14 23:47:56,678 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-14 23:47:56,678 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-14 23:47:56,678 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-14 23:47:56,681 INFO RPC interface 'supervisor' initialized
+2022-06-14 23:47:56,681 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-14 23:47:56,681 INFO supervisord started with pid 1
+2022-06-14 23:47:57,683 INFO spawned: 'php-fpm' with pid 7
+2022-06-14 23:47:57,685 INFO spawned: 'test_00' with pid 8
+2022-06-14 23:47:57,691 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 23:47:58,735 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-14 23:47:58,736 INFO spawned: 'test_00' with pid 11
+2022-06-14 23:47:58,740 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 23:48:00,743 INFO spawned: 'test_00' with pid 12
+2022-06-14 23:48:00,747 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 23:48:03,751 INFO spawned: 'test_00' with pid 13
+2022-06-14 23:48:03,755 INFO exited: test_00 (exit status 127; not expected)
+2022-06-14 23:48:04,756 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:09:05,891 WARN received SIGQUIT indicating exit request
+2022-06-15 00:09:05,892 INFO waiting for php-fpm to die
+2022-06-15 00:09:06,897 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:09:07,587 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:09:07,587 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:09:07,587 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:09:07,590 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:09:07,590 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:09:07,590 INFO supervisord started with pid 1
+2022-06-15 00:09:08,592 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:09:08,595 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:09:08,601 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:09:09,643 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:09:09,644 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:09:09,648 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:09:11,650 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:09:11,654 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:09:14,658 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:09:14,662 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:09:15,663 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:12:11,437 WARN received SIGQUIT indicating exit request
+2022-06-15 00:12:11,437 INFO waiting for php-fpm to die
+2022-06-15 00:12:12,442 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:12:13,134 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:12:13,134 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:12:13,134 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:12:13,137 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:12:13,137 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:12:13,137 INFO supervisord started with pid 1
+2022-06-15 00:12:14,139 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:12:14,142 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:12:14,147 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:12:15,190 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:12:15,192 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:12:15,195 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:12:17,198 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:12:17,202 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:12:20,207 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:12:20,210 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:12:21,212 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:19:49,649 WARN received SIGQUIT indicating exit request
+2022-06-15 00:19:49,649 INFO waiting for php-fpm to die
+2022-06-15 00:19:50,654 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:19:51,351 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:19:51,351 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:19:51,352 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:19:51,354 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:19:51,354 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:19:51,355 INFO supervisord started with pid 1
+2022-06-15 00:19:52,356 INFO spawned: 'php-fpm' with pid 8
+2022-06-15 00:19:52,359 INFO spawned: 'test_00' with pid 9
+2022-06-15 00:19:52,364 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:19:53,407 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:19:53,409 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:19:53,412 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:19:55,415 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:19:55,419 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:19:58,423 INFO spawned: 'test_00' with pid 14
+2022-06-15 00:19:58,427 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:19:59,428 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:23:13,559 WARN received SIGQUIT indicating exit request
+2022-06-15 00:23:13,559 INFO waiting for php-fpm to die
+2022-06-15 00:23:14,564 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:23:15,242 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:23:15,242 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:23:15,242 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:23:15,245 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:23:15,245 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:23:15,245 INFO supervisord started with pid 1
+2022-06-15 00:23:16,247 INFO spawned: 'php-fpm' with pid 8
+2022-06-15 00:23:16,250 INFO spawned: 'test_00' with pid 9
+2022-06-15 00:23:16,256 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:23:17,298 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:23:17,300 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:23:17,303 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:23:19,307 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:23:19,312 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:23:22,317 INFO spawned: 'test_00' with pid 14
+2022-06-15 00:23:22,322 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:23:23,323 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:23:56,356 WARN received SIGQUIT indicating exit request
+2022-06-15 00:23:56,356 INFO waiting for php-fpm to die
+2022-06-15 00:23:57,361 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:24:50,586 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:24:50,586 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:24:50,586 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:24:50,589 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:24:50,589 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:24:50,589 INFO supervisord started with pid 1
+2022-06-15 00:24:51,592 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:24:51,594 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:24:51,600 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:24:52,642 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:24:52,643 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:24:52,647 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:24:54,650 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:24:54,654 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:24:57,658 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:24:57,662 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:24:58,663 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:35:16,537 WARN received SIGQUIT indicating exit request
+2022-06-15 00:35:16,537 INFO waiting for php-fpm to die
+2022-06-15 00:35:17,542 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:35:18,196 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:35:18,196 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:35:18,196 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:35:18,199 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:35:18,199 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:35:18,199 INFO supervisord started with pid 1
+2022-06-15 00:35:19,201 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:35:19,204 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:35:19,209 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:35:20,254 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:35:20,256 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:35:20,259 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:35:22,262 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:35:22,266 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:35:25,270 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:35:25,274 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:35:26,275 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:37:56,419 WARN received SIGQUIT indicating exit request
+2022-06-15 00:37:56,419 INFO waiting for php-fpm to die
+2022-06-15 00:37:57,426 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:37:58,318 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:37:58,318 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:37:58,318 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:37:58,321 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:37:58,321 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:37:58,321 INFO supervisord started with pid 1
+2022-06-15 00:37:59,323 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:37:59,325 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:37:59,331 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:38:00,373 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:38:00,374 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:38:00,378 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:38:02,381 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:38:02,385 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:38:05,389 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:38:05,393 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:38:06,394 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:39:11,454 WARN received SIGQUIT indicating exit request
+2022-06-15 00:39:11,454 INFO waiting for php-fpm to die
+2022-06-15 00:39:12,461 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:39:13,125 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:39:13,125 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:39:13,125 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:39:13,127 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:39:13,128 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:39:13,128 INFO supervisord started with pid 1
+2022-06-15 00:39:14,130 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:39:14,132 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:39:14,138 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:39:15,181 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:39:15,182 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:39:15,186 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:39:17,189 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:39:17,193 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:39:20,197 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:39:20,201 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:39:21,202 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:40:34,275 WARN received SIGQUIT indicating exit request
+2022-06-15 00:40:34,275 INFO waiting for php-fpm to die
+2022-06-15 00:40:35,280 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:40:35,998 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:40:35,998 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:40:35,998 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:40:36,001 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:40:36,001 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:40:36,001 INFO supervisord started with pid 1
+2022-06-15 00:40:37,003 INFO spawned: 'php-fpm' with pid 8
+2022-06-15 00:40:37,005 INFO spawned: 'test_00' with pid 9
+2022-06-15 00:40:37,011 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:40:38,053 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:40:38,055 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:40:38,059 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:40:40,062 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:40:40,066 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:40:43,071 INFO spawned: 'test_00' with pid 14
+2022-06-15 00:40:43,075 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:40:44,076 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 00:42:52,198 WARN received SIGQUIT indicating exit request
+2022-06-15 00:42:52,198 INFO waiting for php-fpm to die
+2022-06-15 00:42:53,203 INFO stopped: php-fpm (exit status 0)
+2022-06-15 00:42:53,862 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 00:42:53,862 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 00:42:53,862 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 00:42:53,865 INFO RPC interface 'supervisor' initialized
+2022-06-15 00:42:53,865 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 00:42:53,865 INFO supervisord started with pid 1
+2022-06-15 00:42:54,867 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 00:42:54,870 INFO spawned: 'test_00' with pid 8
+2022-06-15 00:42:54,875 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:42:55,918 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 00:42:55,919 INFO spawned: 'test_00' with pid 11
+2022-06-15 00:42:55,924 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:42:57,926 INFO spawned: 'test_00' with pid 12
+2022-06-15 00:42:57,930 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:43:00,934 INFO spawned: 'test_00' with pid 13
+2022-06-15 00:43:00,938 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 00:43:01,939 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 21:47:39,418 WARN received SIGQUIT indicating exit request
+2022-06-15 21:47:39,418 INFO waiting for php-fpm to die
+2022-06-15 21:47:40,423 INFO stopped: php-fpm (exit status 0)
+2022-06-15 21:57:41,555 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 21:57:41,555 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 21:57:41,555 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 21:57:41,561 INFO RPC interface 'supervisor' initialized
+2022-06-15 21:57:41,561 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 21:57:41,562 INFO supervisord started with pid 1
+2022-06-15 21:57:42,564 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 21:57:42,566 INFO spawned: 'test_00' with pid 8
+2022-06-15 21:57:42,572 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 21:57:43,649 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 21:57:43,650 INFO spawned: 'test_00' with pid 11
+2022-06-15 21:57:43,654 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 21:57:45,657 INFO spawned: 'test_00' with pid 12
+2022-06-15 21:57:45,661 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 21:57:48,665 INFO spawned: 'test_00' with pid 13
+2022-06-15 21:57:48,669 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 21:57:49,670 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 22:00:34,835 WARN received SIGQUIT indicating exit request
+2022-06-15 22:00:34,836 INFO waiting for php-fpm to die
+2022-06-15 22:00:35,840 INFO stopped: php-fpm (exit status 0)
+2022-06-15 22:01:43,636 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-06-15 22:01:43,636 INFO Included extra file "/etc/supervisor/conf.d/php-fpm.conf" during parsing
+2022-06-15 22:01:43,636 INFO Included extra file "/etc/supervisor/conf.d/test-queue.conf" during parsing
+2022-06-15 22:01:43,640 INFO RPC interface 'supervisor' initialized
+2022-06-15 22:01:43,640 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2022-06-15 22:01:43,640 INFO supervisord started with pid 1
+2022-06-15 22:01:44,642 INFO spawned: 'php-fpm' with pid 7
+2022-06-15 22:01:44,645 INFO spawned: 'test_00' with pid 8
+2022-06-15 22:01:44,650 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 22:01:45,698 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-06-15 22:01:45,699 INFO spawned: 'test_00' with pid 11
+2022-06-15 22:01:45,703 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 22:01:47,706 INFO spawned: 'test_00' with pid 12
+2022-06-15 22:01:47,710 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 22:01:50,714 INFO spawned: 'test_00' with pid 13
+2022-06-15 22:01:50,718 INFO exited: test_00 (exit status 127; not expected)
+2022-06-15 22:01:51,719 INFO gave up: test_00 entered FATAL state, too many start retries too quickly
+2022-06-15 22:03:20,803 WARN received SIGQUIT indicating exit request
+2022-06-15 22:03:20,803 INFO waiting for php-fpm to die
+2022-06-15 22:03:21,808 INFO stopped: php-fpm (exit status 0)

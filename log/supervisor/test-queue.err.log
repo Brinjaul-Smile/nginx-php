@@ -1,0 +1,1026 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'bcmath' already loaded in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'bcmath' already loaded in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'bcmath' already loaded in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'bcmath' already loaded in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+PHP Warning:  PHP Startup: Unable to load dynamic library '/root/php-screw-plus/.libs/php_screw_plus.so' (tried: /root/php-screw-plus/.libs/php_screw_plus.so (/root/php-screw-plus/.libs/php_screw_plus.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731//root/php-screw-plus/.libs/php_screw_plus.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/redis.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20180731/bcmath.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+sh: 1: ps: not found
+PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Warning:  fsockopen(): unable to connect to redis:6379 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 59
+PHP Fatal error:  Uncaught Exception: 0 - php_network_getaddresses: getaddrinfo failed: Name or service not known in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php:61
+Stack trace:
+#0 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php(55): Redisent->establishConnection()
+#1 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque.php(100): Redisent->__construct('redis', '6379')
+#2 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(67): Resque::redis()
+#3 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(448): Resque_Worker::all()
+#4 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(321): Resque_Worker->pruneDeadWorkers()
+#5 /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Resque/Worker.php(158): Resque_Worker->startup()
+#6 /usr/local/nginx/html/laravel/public/vendor/chrisboulton in /usr/local/nginx/html/laravel/public/vendor/chrisboulton/php-resque/lib/Redisent/Redisent.php on line 61
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't chdir to /usr/local/nginx/html/laravel/public/queue/: ENOENT
+supervisor: child process was not spawned
